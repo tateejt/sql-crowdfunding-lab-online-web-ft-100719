@@ -8,10 +8,12 @@ end_date INTEGER
 );
 
 CREATE TABLE users (
+  ID INTEGER
   name TEXT
   age INTEGER
 );
 
 CREATE TABLE pledges (
+id INTEGER
   amount INTEGER
 );
